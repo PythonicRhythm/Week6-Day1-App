@@ -1,0 +1,70 @@
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: 1px solid rgba(49, 49, 49, 0.493);
+    padding-bottom: 60px;
+}
+
+.footer-left-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-left-container > h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.left-text-container {
+    border: 1px solid rgba(97, 97, 97, 0.13);
+    border-radius: 10px;
+    width: 80%;
+    transition: ease 0.25s;
+}
+
+.left-text-container:hover {
+    background-color: rgb(238, 238, 238);
+}
+
+.left-text-container > p {
+    margin: 0px;
+    padding: 10px;
+}
+
+.footer-right-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-right-container > h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.right-text-container {
+    border: 1px solid rgba(97, 97, 97, 0.13);
+    border-radius: 10px;
+    width: 40%;
+    transition: ease 0.25s;
+}
+
+.right-text-container:hover {
+    background-color: rgb(238, 238, 238);
+}
+
+.right-text-container > p {
+    margin: 0px;
+    padding: 10px;
+}
+
+.right-text-container > p > a {
+    text-decoration: none;
+    color: rgb(20, 20, 235);
+}
+
+.right-text-container > p > a:hover {
+    text-decoration: underline;
+    color: rgb(4, 4, 190);
+}
