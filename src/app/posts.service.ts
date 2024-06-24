@@ -6,6 +6,7 @@ export class PostService {
       {title: "JavaScript!", body: "Today, im discussing javascript! I currently use it for angular and....", publishDate: "2015-09-03"},  
       {title: "Angular! Not math related btw!", body: "Omg I so excited to finally begin discussing angularjs and all its main fea....", publishDate: "2018-03-04"},   
       {title: "REACT to this! ", body: "Oh man im in love with React right now.. Why you may ask? Well because i dont even know blah blah blah", publishDate: "2019-01-10"},   
+      {title: "Testing empty body", body: "", publishDate: "2024-05-10"},   
     ];
   }
 }

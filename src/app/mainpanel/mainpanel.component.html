@@ -10,8 +10,9 @@
             <div *ngFor="let post of posts" class="single-post">
                 <h2>{{post.title}}</h2>
                     <div class="post-body">
-                        <div class="text-scroll-wrapper">
-                            <p>&emsp;{{post.body}}</p>
+                        <div [ngSwitch]="post.body.length" class="text-scroll-wrapper">
+                            <p class="empty-body" *ngSwitchCase="0">*No body was created*</p>
+                            <p *ngSwitchDefault>&emsp;{{post.body}}</p>
                         </div>
                     </div>
                 <div class="post-date">

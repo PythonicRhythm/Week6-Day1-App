@@ -53,6 +53,11 @@
     overflow-y: auto;
 }
 
+.empty-body {
+    font-weight: bold;
+    text-align: center;
+}
+
 .post-body {
     width: 90%;
     font-size: 25px;
