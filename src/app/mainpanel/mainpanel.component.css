@@ -33,10 +33,15 @@
     overflow: hidden;
 }
 
+@keyframes scale-up {
+    50% {transform: scale(1.05);}
+}
+
 .single-post:hover {
     background-color: rgb(243, 243, 243);
     border: 1px solid rgb(22, 22, 22);
-    -webkit-transform: scale(1.05);
+    -webkit-animation: scale-up 3.0s infinite;
+    /* -webkit-transform: scale(1.05); */
 }
 
 .text-scroll-wrapper {
