@@ -35,6 +35,7 @@
 .header-links:hover {
     background-color: rgb(243, 243, 243);
     cursor: pointer;
+    -webkit-transform: scale(1.05);
 }
 
 .header-links:active {

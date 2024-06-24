@@ -24,7 +24,8 @@
 }
 
 .left-text-container:hover {
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(241, 241, 241, 0.589);
+    -webkit-transform: scale(1.05);
 }
 
 .left-text-container > p {
@@ -51,7 +52,8 @@
 }
 
 .right-text-container:hover {
-    background-color: rgb(238, 238, 238);
+    background-color: rgba(241, 241, 241, 0.589);
+    -webkit-transform: scale(1.05);
 }
 
 .right-text-container > p {
